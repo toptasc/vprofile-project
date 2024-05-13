@@ -4,10 +4,11 @@ pipeline {
         maven "MAVEN3"
         jdk "OracleJDK8"
     }
+
     environment {
-        SNAP REPO = 'vprofile-snapshot'
-        NEXUS USER = 'admin'
-        NEXUS PASS = '706637'
+        SNAP_REPO = 'vprofile-snapshot'
+        NEXUS_USER = 'admin'
+        NEXUS_PASS = '706637'
         RELEASE_REPO = 'profile-release'
         CENTRAL_REPO = 'vpro-maven-central'
         NEXUSIP = '172.31.56.192'    
